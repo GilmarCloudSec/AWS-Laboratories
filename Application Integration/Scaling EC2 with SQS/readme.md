@@ -48,6 +48,14 @@ Scaling EC2 with Simple Queue Service (SQS).
       ![Receiving Messages Code](https://raw.githubusercontent.com/GilmarCloudSec/AWS-Laboratories/15f03fa196157ddc78061e5b64d4de04e78a50cd/Application%20Integration/Scaling%20EC2%20with%20SQS/receivemessages%20code.png)
 
 
+2. Create an SQS Queue:
+   I created a queue named MyMessages with a standard type.
+
+
+3. Upload and run a script on a Cloud9 Instance:
+   * I selected an EC2 instance running on a Linux platform for the environment type.
+   * After uploading the `sendMessages.sh` file to the environment, I executed `sudo yum install jq -y` in the terminal to install dependencies, followed by `chmod +x sendMessages.sh` to grant execute permissions to the script. Finally, I ran the script to send 2000 messages to the MyMessages queue.
+
 
 
 
