@@ -56,9 +56,12 @@ Integrating S3 (Simple Storage)  + with SNS (Simple Notification Service) + SQS 
 6. Testing the integration:
    Uploading a file to the S3 bucket triggered S3 to publish an event notification to the SNS topic, which in turn delivers the message to both SQS queues.
 
+    ![Testing the Integration](https://raw.githubusercontent.com/GilmarCloudSec/AWS-Laboratories/dfdbf3cebeb0aca66e6861991a470c02684653a3/Application%20Integration/S3%20%2B%20SNS%20%2B%20SQS/Testing%20the%20integration.png)
 
 
-Conclusion
+
+
+## Conclusion
 This fan-out architecture ensures that multiple consumers can react to the same event, enabling scalable and decoupled systems for efficient data processing and workflow automation.
 
 
