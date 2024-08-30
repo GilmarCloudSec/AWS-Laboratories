@@ -9,7 +9,7 @@ Explain the SQS: Visibility Timeout.
 ## Implementation
 The visibility timeout determines how long a message received from a queue will be invisible to other consumers after it has been received by one consumer.
 
-![Visibility Timeout](./Application%20Integration/SQS%3A%20Visibility%20Timeout/visibility%20timeout.png)
+![Visibility Timeout](./AWS-Labs/Application%20Integration/SQS%3A%20Visibility%20Timeout/visibility%20timeout.png)
 
 Imagine you have a queue named MyQueue in Amazon SQS that contains several messages. Each message represents a task that needs to be processed by consumers.
 
